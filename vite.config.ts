@@ -8,7 +8,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: process.env.NODE_ENV === 'production' ? '/nombre-repositorio/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/' : '/',
   server: {
     host: true, // Esto expone el servidor a tu red local
     // https: true // ¡Añade esta línea!
